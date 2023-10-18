@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lora:wght@400;500;600;700&family=Nunito:ital,wght@0,400;0,500;1,700&family=Roboto:wght@400;500;700&display=swap");
+html,
+body,
+#root,
+.app,
+.content {
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+.App {
+  display: flex;
+  position: relative;
+}
+.content {
+  padding: 10px 30px 10px 30px;
+}
+.barchart {
+  width: 670px;
+  padding: 15px;
+
+  border-radius: 10px;
+}
+select {
+  border: none;
+  font-size: small;
+  height: 20px;
+}
